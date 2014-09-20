@@ -4,58 +4,77 @@ img {
 	border: 2px solid black;
 	}
 img {
-	position: relative;
+	position: absolute;
 	left: 102px;
 	top: 85px
 	}
-td.frame {
+div.frame {
+	position: relative;
+	left: 94px;
+	top: 77px;
+	z-index: -1;
 	border: 2px solid black;
+	background-color: white;
 	height: 600px;
 	width: 1000px;
 	}
-table.frame {
-	position: relative;
-	left: 100px;
-	bottom: 75px;
+div.background {
+	position: absolute;
+	bottom: 10px;
+	height: 1500px;
+	width: 1500px;
+	z-index: -2;
+	background-color: #C8C8C8;
 	}
 p.edit {
 	position: relative;
-	left: 350px;
-	bottom: 680px;
+	left: 310px;
+	bottom: 580px;
 	border: 1px solid blue;
 	width: 30px;
 	padding: 4px 4px 4px 4px;
 	}
 p.profile {
 	position: relative;
-	left: 400px;
-	bottom: 635px;
+	left: 360px;
+	bottom: 535px;
 	border: 1px solid blue;
 	width: 50px;
 	padding: 4px 4px 4px 4px;
 	}
 p.my_network {
 	position: relative;
-	left: 470px;
-	bottom: 725px;
+	left: 430px;
+	bottom: 625px;
 	border: 1px solid blue;
-	width: 120px;
+	width: 110px;
 	padding: 4px 4px 4px 4px;
 	}
 p.gallery {
 	position: relative;
-	left: 610px;
-	bottom: 770px;
+	left: 570px;
+	bottom: 670px;
 	border: 1px solid blue;
 	width: 80px;
 	padding: 4px 4px 4px 4px;
 	}
 p.calendar {
 	position: relative;
-	left: 710px;
-	bottom: 815px;
+	left: 670px;
+	bottom: 715px;
 	border: 1px solid blue;
 	width: 100px;
 	padding: 4px 4px 4px 4px;
+	}
+h3.name {
+	position: relative;
+	left: 450px;
+	bottom: 700px;
+	}
+h5.info {
+	position: relative;
+	left: 450px;
+	bottom: 720px;
+	width: 120px;
 	}
 
