@@ -1,0 +1,29 @@
+img {
+	height: 150px;
+	width: 200px;
+	border: 2px solid black;
+	}
+img {
+	position: relative;
+	left: 102px;
+	top: 85px
+	}
+td.frame {
+	border: 2px solid black;
+	height: 600px;
+	width: 1000px;
+	}
+table.frame {
+	position: relative;
+	left: 100px;
+	bottom: 75px;
+	}
+p.edit {
+	position: relative;
+	left: 350px;
+	bottom: 680px;
+	border: 1px solid blue;
+	width: 30px;
+	padding: 4px 4px 4px 4px;
+	}
+p.profile
