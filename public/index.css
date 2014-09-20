@@ -26,4 +26,36 @@ p.edit {
 	width: 30px;
 	padding: 4px 4px 4px 4px;
 	}
-p.profile
+p.profile {
+	position: relative;
+	left: 400px;
+	bottom: 635px;
+	border: 1px solid blue;
+	width: 50px;
+	padding: 4px 4px 4px 4px;
+	}
+p.my_network {
+	position: relative;
+	left: 470px;
+	bottom: 725px;
+	border: 1px solid blue;
+	width: 120px;
+	padding: 4px 4px 4px 4px;
+	}
+p.gallery {
+	position: relative;
+	left: 610px;
+	bottom: 770px;
+	border: 1px solid blue;
+	width: 80px;
+	padding: 4px 4px 4px 4px;
+	}
+p.calendar {
+	position: relative;
+	left: 710px;
+	bottom: 815px;
+	border: 1px solid blue;
+	width: 100px;
+	padding: 4px 4px 4px 4px;
+	}
+
