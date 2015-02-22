@@ -1,21 +1,39 @@
 <!DOCTYPE html> <html>
+	
 	<head>
 	<link type="text/css" rel="stylesheet" href="index.css">
-		<title>My Profile</title>
+	<title>
+	Login
+	</title>
 	</head>
-	
-	<body>
-	<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10613074_517751541692920_1538847873323124479_n.jpg?oh=2b5ffd83e44a36785a539d2ead0b1421&oe=54C5A7DF&__gda__=1418905859_2d60ce59b2ddaac77b3d9843bd81ed3e" />
-	</body>
-		<body>
-			<div class="frame"></div>
-			<div class="background"></div>
-		</body>
 
+	<body>
+	<div class="frame"></div>
+	<div class="background"></div>
+	</body>
+
+	<body>
+	<form name="login">
+	username<input type="text" name="userid"/>
+	password<input type"password" name="psword"/>
+	<input type="button" onclick="check(this.form)" value="login">
+	<input type="reset" value = Cancel"/>
+	</form>
+	<script language="javascript">
+	function check(form)
+	{
+	if(form.userid.value =="myuserid" && form.psword.value == "mypsword")
+	{
+		window.open('target.html')
+	}
+	else
+	{
+		alert("Error password or username")
+	}
+	</script>
+	</body>
 	<body class="link1">
-	<a href="index.html">
-	<p class="profile">Profile</p>
-	</a>
+	<a href="index.html"><p class="profile">Profile</p></a>
 
 	<a href="inprogress.html">
 	
