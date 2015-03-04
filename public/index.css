@@ -43,36 +43,36 @@ p.profile {
 	padding: 4px 4px 4px 4px;
 	}
 input.cphone {
-	position: relative;
-	left: 430px;
-	bottom: 625px;
+	position: absolute;
+	left: 500px;
+	bottom: 550px;
 	border: 1px solid blue;
 	width: 110px;
 	padding: 4px 4px 4px 4px;
 	}
-p.gallery {
-	position: relative;
-	left: 570px;
-	bottom: 670px;
+input.userid {
+	position: absolute;
+	left: 500px;
+	bottom: 5000px;
 	border: 1px solid blue;
 	width: 80px;
 	padding: 4px 4px 4px 4px;
 	}
-p.calendar {
-	position: relative;
+input.psword {
+	position: absolute;
 	left: 670px;
 	bottom: 715px;
 	border: 1px solid blue;
 	width: 100px;
 	padding: 4px 4px 4px 4px;
 	}
-h3.name {
-	position: relative;
+input.wphone {
+	position: absolute;
 	left: 450px;
 	bottom: 700px;
 	}
-h5.info {
-	position: relative;
+input.edu {
+	position: absolute;
 	left: 450px;
 	bottom: 720px;
 	width: 120px;
